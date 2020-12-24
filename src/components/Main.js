@@ -10,9 +10,8 @@ class Main extends Component {
         super();
         this.state = {
             satInfo: null,
-            settings: null,
             satList: null,
-            // waiting for the data icon; false - not spinning
+            setting: null,
             isLoadingList: false
         };
     }
